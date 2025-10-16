@@ -1,0 +1,12 @@
+from __future__ import annotations
+
+from typing import Optional
+
+from sqlmodel import Field, SQLModel
+
+
+class Setting(SQLModel, table=True):
+    __tablename__ = "settings"
+
+    key: str = Field(primary_key=True)
+    value: Optional[str] = None

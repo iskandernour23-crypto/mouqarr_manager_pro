@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "framework": "vite",
+  "env": {
+    "VITE_API_URL": "https://mouqarr-backend.onrender.com/api"
+  }
+}

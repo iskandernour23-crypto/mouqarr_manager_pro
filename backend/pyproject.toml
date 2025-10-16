@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "mouqarr-backend"
+version = "0.1.0"
+description = "Mouqarr Flex Manager backend"
+authors = ["Mouqarr Team <team@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = {extras=["standard"], version="^0.29.0"}
+sqlmodel = "^0.0.14"
+sqlalchemy = "^2.0.30"
+python-multipart = "^0.0.9"
+python-jose = {extras=["cryptography"], version="^3.3.0"}
+passlib = {extras=["argon2"], version="^1.7.4"}
+python-dotenv = "^1.0.1"
+email-validator = "^2.1.0"
+itsdangerous = "^2.2.0"
+cryptography = "^42.0.5"
+fpdf2 = "^2.7.8"
+arabic-reshaper = "^3.0.0"
+python-bidi = "^0.4.2"
+python-dateutil = "^2.9.0"
+apscheduler = "^3.10.4"
+httpx = "^0.27.0"
+requests = "^2.31.0"
+tenacity = "^8.2.3"
+openpyxl = "^3.1.2"
+pandas = "^2.2.1"
+prophet = {version = "^1.1.5", optional = true}
+statsmodels = "^0.14.2"
+scikit-learn = "^1.4.2"
+asyncpg = "^0.29.0"
+pyjwt = "^2.8.0"
+python-telegram-bot = "^20.7"
+rich = "^13.7.0"
+typer = "^0.12.3"
+slowapi = "^0.1.8"
+setuptools = "^69.0.0"
+
+[tool.poetry.extras]
+prophet = ["prophet"]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+pytest-asyncio = "^0.23.6"
+httpx = "^0.27.0"
+pytest-cov = "^5.0.0"
+ruff = "^0.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
