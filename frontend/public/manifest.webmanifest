@@ -1,0 +1,11 @@
+{
+  "name": "مدير موَقَّر",
+  "short_name": "موَقَّر",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": []
+}

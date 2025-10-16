@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+backend/.venv
+frontend/node_modules
+frontend/dist
+poetry.lock
+npm-debug.log
+.DS_Store
+.idea
+.vscode
