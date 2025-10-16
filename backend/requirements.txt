@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlmodel
+pydantic-settings
+apscheduler
+fpdf2
+python-bidi
+arabic-reshaper
+gspread
+oauth2client
+python-telegram-bot==13.15
+aiosmtplib
+passlib[bcrypt]
+python-jose
+openpyxl
+pytest
